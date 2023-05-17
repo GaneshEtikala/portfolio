@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url("https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1060&t=st=1683284872~exp=1683285472~hmac=6cc8b45c670fc7bd920b06e9f94c018a1cf532231a19926b3dfeee9d2ab981c9");
+}
+
+body{
+    
+    color: aliceblue;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    
+}
+.navbar{
+    background-color: azure;
+    margin-right: -1px;
+}
+
+.navbar a {
+   font-size: 18px;
+   color:black;
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 35px;
+   transition: .3s;
+   background-color:none;
+   
+}
+
+.navbar a:hover,
+.navbar a:active{
+    color:white;
+}
+
+.home{
+    position: relative;
+    color: black;
+    width:100;
+    height:100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+
+.home-content{
+    max-width: 450px;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h3:nth-last-of-type(2){
+    margin-bottom: 30px;
+}
+
+.home-content h3 span{
+    color:red;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content p{
+    font-size: 20px;
+}
+
+.home-img img {
+    max-width: 450px;
+    margin-right: -30px;
+    
+    
+}
+
+.social-Media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.social-Media a:hover{
+    background:black;
+    color:white;
+    box-shadow: 0 0 20px blanchedalmond;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: red;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    border:solid rgb(5, 4, 4);
+
+}
+.label{
+    font-size: 25px;
+    color:red
+}
+
+
